@@ -1,11 +1,12 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import ListData from './component/listdata';
+import "bootstrap/dist/css/bootstrap.min.css";
+import FetchData from "./component/FetchData";
 
 function App() {
   return (
-    <ListData></ListData>
+    <div className="App">
+      <FetchData />
+    </div>
   );
 }
 
